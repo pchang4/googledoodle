@@ -1,0 +1,12 @@
+.viewport {
+    width: 638.344px;
+    height: 360px;
+    border: 1px solid black;
+    background-image: url(../img/SpriteSheetsmall.png);
+  }
+.viewport:hover {
+    animation: play 10s steps(97);
+}
+  @keyframes play {
+      100% {background-position-y: -36015px}
+  }
